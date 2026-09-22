@@ -1,0 +1,1682 @@
+{
+  "data": [
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "21",
+      "name": "EXACT GOALS",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "0",
+          "odd_key": "0",
+          "odd_value": "12.75",
+          "special_bet_value": "variant=sr:exact_goals:6+",
+          "outcome_id": "sr:exact_goals:6+:68",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:6+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1",
+          "odd_key": "1",
+          "odd_value": "4.5",
+          "special_bet_value": "variant=sr:exact_goals:6+",
+          "outcome_id": "sr:exact_goals:6+:69",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:6+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2",
+          "odd_key": "2",
+          "odd_value": "3.35",
+          "special_bet_value": "variant=sr:exact_goals:6+",
+          "outcome_id": "sr:exact_goals:6+:70",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:6+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "3",
+          "odd_key": "3",
+          "odd_value": "3.9",
+          "special_bet_value": "variant=sr:exact_goals:6+",
+          "outcome_id": "sr:exact_goals:6+:71",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:6+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "4",
+          "odd_key": "4",
+          "odd_value": "7.0",
+          "special_bet_value": "variant=sr:exact_goals:6+",
+          "outcome_id": "sr:exact_goals:6+:72",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:6+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "5",
+          "odd_key": "5",
+          "odd_value": "14.25",
+          "special_bet_value": "variant=sr:exact_goals:6+",
+          "outcome_id": "sr:exact_goals:6+:73",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:6+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "6+",
+          "odd_key": "6+",
+          "odd_value": "21.0",
+          "special_bet_value": "variant=sr:exact_goals:6+",
+          "outcome_id": "sr:exact_goals:6+:74",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:6+"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "23",
+      "name": "BANDARINI BSL EXACT GOALS",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "0",
+          "odd_key": "0",
+          "odd_value": "6.0",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:92",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1",
+          "odd_key": "1",
+          "odd_value": "3.25",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:93",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2",
+          "odd_key": "2",
+          "odd_value": "3.1",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:94",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "3",
+          "odd_key": "3",
+          "odd_value": "5.5",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:95",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "4+",
+          "odd_key": "4+",
+          "odd_value": "7.5",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:96",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "24",
+      "name": "WALINZI BSL EXACT GOALS",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "0",
+          "odd_key": "0",
+          "odd_value": "1.75",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:92",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1",
+          "odd_key": "1",
+          "odd_value": "2.8",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:93",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2",
+          "odd_key": "2",
+          "odd_value": "7.0",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:94",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "3",
+          "odd_key": "3",
+          "odd_value": "42.0",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:95",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "4+",
+          "odd_key": "4+",
+          "odd_value": "100.0",
+          "special_bet_value": "variant=sr:exact_goals:4+",
+          "outcome_id": "sr:exact_goals:4+:96",
+          "parsed_special_bet_value": {
+            "variant": "sr:exact_goals:4+"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "199",
+      "name": "CORRECT SCORE",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "0:0",
+          "odd_key": "0:0",
+          "odd_value": "12.75",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1262",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "0:1",
+          "odd_key": "0:1",
+          "odd_value": "14.25",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1266",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "0:2",
+          "odd_key": "0:2",
+          "odd_value": "36.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1270",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "0:3",
+          "odd_key": "0:3",
+          "odd_value": "100.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1274",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1:0",
+          "odd_key": "1:0",
+          "odd_value": "6.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1263",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1:1",
+          "odd_key": "1:1",
+          "odd_value": "9.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1267",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1:2",
+          "odd_key": "1:2",
+          "odd_value": "23.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1271",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1:3",
+          "odd_key": "1:3",
+          "odd_value": "100.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1275",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2:0",
+          "odd_key": "2:0",
+          "odd_value": "5.5",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1264",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2:1",
+          "odd_key": "2:1",
+          "odd_value": "8.5",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1268",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2:2",
+          "odd_key": "2:2",
+          "odd_value": "30.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1272",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2:3",
+          "odd_key": "2:3",
+          "odd_value": "100.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1276",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "3:0",
+          "odd_key": "3:0",
+          "odd_value": "8.5",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1265",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "3:1",
+          "odd_key": "3:1",
+          "odd_value": "18.25",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1269",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "3:2",
+          "odd_key": "3:2",
+          "odd_value": "47.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1273",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "3:3",
+          "odd_key": "3:3",
+          "odd_value": "100.0",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1277",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OTHER",
+          "odd_key": "other",
+          "odd_value": "6.75",
+          "special_bet_value": "variant=sr:correct_score:until:3",
+          "outcome_id": "sr:correct_score:until:3:1278",
+          "parsed_special_bet_value": {
+            "variant": "sr:correct_score:until:3"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "52",
+      "name": "HIGHEST SCORING HALF",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1ST HALF",
+          "odd_key": "1st half",
+          "odd_value": "2.6",
+          "special_bet_value": "",
+          "outcome_id": "436",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2ND HALF",
+          "odd_key": "2nd half",
+          "odd_value": "2.4",
+          "special_bet_value": "",
+          "outcome_id": "438",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "EQUAL",
+          "odd_key": "equal",
+          "odd_value": "3.55",
+          "special_bet_value": "",
+          "outcome_id": "440",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "37",
+      "name": "1X2 & TOTAL",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 & OVER 1.5",
+          "odd_key": "Bandarini BSL & over 1.5",
+          "odd_value": "1.7",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "796",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 & OVER 2.5",
+          "odd_key": "Bandarini BSL & over 2.5",
+          "odd_value": "2.35",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "796",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 & UNDER 1.5",
+          "odd_key": "Bandarini BSL & under 1.5",
+          "odd_value": "5.75",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "794",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 & UNDER 2.5",
+          "odd_key": "Bandarini BSL & under 2.5",
+          "odd_value": "2.9",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "794",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X & OVER 1.5",
+          "odd_key": "draw & over 1.5",
+          "odd_value": "6.75",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "800",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X & OVER 2.5",
+          "odd_key": "draw & over 2.5",
+          "odd_value": "27.0",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "800",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X & UNDER 1.5",
+          "odd_key": "draw & under 1.5",
+          "odd_value": "12.25",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "798",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X & UNDER 2.5",
+          "odd_key": "draw & under 2.5",
+          "odd_value": "5.25",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "798",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 & OVER 1.5",
+          "odd_key": "Walinzi BSL & over 1.5",
+          "odd_value": "9.75",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "804",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 & OVER 2.5",
+          "odd_key": "Walinzi BSL & over 2.5",
+          "odd_value": "13.5",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "804",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 & UNDER 1.5",
+          "odd_key": "Walinzi BSL & under 1.5",
+          "odd_value": "14.0",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "802",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 & UNDER 2.5",
+          "odd_key": "Walinzi BSL & under 2.5",
+          "odd_value": "10.25",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "802",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "66",
+      "name": "1ST HALF - HANDICAP",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (-0.25)",
+          "odd_key": "Bandarini BSL (-0.25)",
+          "odd_value": "1.45",
+          "special_bet_value": "hcp=-0.25",
+          "outcome_id": "1714",
+          "parsed_special_bet_value": {
+            "hcp": "-0.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (-0.5)",
+          "odd_key": "Bandarini BSL (-0.5)",
+          "odd_value": "1.75",
+          "special_bet_value": "hcp=-0.5",
+          "outcome_id": "1714",
+          "parsed_special_bet_value": {
+            "hcp": "-0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (-0.75)",
+          "odd_key": "Bandarini BSL (-0.75)",
+          "odd_value": "2.05",
+          "special_bet_value": "hcp=-0.75",
+          "outcome_id": "1714",
+          "parsed_special_bet_value": {
+            "hcp": "-0.75"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (+0.25)",
+          "odd_key": "Walinzi BSL (+0.25)",
+          "odd_value": "2.55",
+          "special_bet_value": "hcp=-0.25",
+          "outcome_id": "1715",
+          "parsed_special_bet_value": {
+            "hcp": "-0.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (+0.5)",
+          "odd_key": "Walinzi BSL (+0.5)",
+          "odd_value": "2.0",
+          "special_bet_value": "hcp=-0.5",
+          "outcome_id": "1715",
+          "parsed_special_bet_value": {
+            "hcp": "-0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (+0.75)",
+          "odd_key": "Walinzi BSL (+0.75)",
+          "odd_value": "1.7",
+          "special_bet_value": "hcp=-0.75",
+          "outcome_id": "1715",
+          "parsed_special_bet_value": {
+            "hcp": "-0.75"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "16",
+      "name": "HANDICAP",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (-1.0)",
+          "odd_key": "Bandarini BSL (-1.0)",
+          "odd_value": "1.65",
+          "special_bet_value": "hcp=-1",
+          "outcome_id": "1714",
+          "parsed_special_bet_value": {
+            "hcp": "-1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (-1.25)",
+          "odd_key": "Bandarini BSL (-1.25)",
+          "odd_value": "1.95",
+          "special_bet_value": "hcp=-1.25",
+          "outcome_id": "1714",
+          "parsed_special_bet_value": {
+            "hcp": "-1.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (-1.5)",
+          "odd_key": "Bandarini BSL (-1.5)",
+          "odd_value": "2.2",
+          "special_bet_value": "hcp=-1.5",
+          "outcome_id": "1714",
+          "parsed_special_bet_value": {
+            "hcp": "-1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (+1.0)",
+          "odd_key": "Walinzi BSL (+1.0)",
+          "odd_value": "2.1",
+          "special_bet_value": "hcp=-1",
+          "outcome_id": "1715",
+          "parsed_special_bet_value": {
+            "hcp": "-1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (+1.25)",
+          "odd_key": "Walinzi BSL (+1.25)",
+          "odd_value": "1.75",
+          "special_bet_value": "hcp=-1.25",
+          "outcome_id": "1715",
+          "parsed_special_bet_value": {
+            "hcp": "-1.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (+1.5)",
+          "odd_key": "Walinzi BSL (+1.5)",
+          "odd_value": "1.6",
+          "special_bet_value": "hcp=-1.5",
+          "outcome_id": "1715",
+          "parsed_special_bet_value": {
+            "hcp": "-1.5"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "14",
+      "name": "HANDICAP ",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (0:1)",
+          "odd_key": "Bandarini BSL (0:1)",
+          "odd_value": "2.25",
+          "special_bet_value": "hcp=0:1",
+          "outcome_id": "1711",
+          "parsed_special_bet_value": {
+            "hcp": "0:1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (0:2)",
+          "odd_key": "Bandarini BSL (0:2)",
+          "odd_value": "4.55",
+          "special_bet_value": "hcp=0:2",
+          "outcome_id": "1711",
+          "parsed_special_bet_value": {
+            "hcp": "0:2"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (1:0)",
+          "odd_key": "Bandarini BSL (1:0)",
+          "odd_value": "1.12",
+          "special_bet_value": "hcp=1:0",
+          "outcome_id": "1711",
+          "parsed_special_bet_value": {
+            "hcp": "1:0"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1 (2:0)",
+          "odd_key": "Bandarini BSL (2:0)",
+          "odd_value": "1.02",
+          "special_bet_value": "hcp=2:0",
+          "outcome_id": "1711",
+          "parsed_special_bet_value": {
+            "hcp": "2:0"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X (0:1)",
+          "odd_key": "draw (0:1)",
+          "odd_value": "3.55",
+          "special_bet_value": "hcp=0:1",
+          "outcome_id": "1712",
+          "parsed_special_bet_value": {
+            "hcp": "0:1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X (0:2)",
+          "odd_key": "draw (0:2)",
+          "odd_value": "4.15",
+          "special_bet_value": "hcp=0:2",
+          "outcome_id": "1712",
+          "parsed_special_bet_value": {
+            "hcp": "0:2"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X (1:0)",
+          "odd_key": "draw (1:0)",
+          "odd_value": "7.5",
+          "special_bet_value": "hcp=1:0",
+          "outcome_id": "1712",
+          "parsed_special_bet_value": {
+            "hcp": "1:0"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X (2:0)",
+          "odd_key": "draw (2:0)",
+          "odd_value": "12.0",
+          "special_bet_value": "hcp=2:0",
+          "outcome_id": "1712",
+          "parsed_special_bet_value": {
+            "hcp": "2:0"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (0:1)",
+          "odd_key": "Walinzi BSL (0:1)",
+          "odd_value": "2.8",
+          "special_bet_value": "hcp=0:1",
+          "outcome_id": "1713",
+          "parsed_special_bet_value": {
+            "hcp": "0:1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (0:2)",
+          "odd_key": "Walinzi BSL (0:2)",
+          "odd_value": "1.6",
+          "special_bet_value": "hcp=0:2",
+          "outcome_id": "1713",
+          "parsed_special_bet_value": {
+            "hcp": "0:2"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (1:0)",
+          "odd_key": "Walinzi BSL (1:0)",
+          "odd_value": "18.5",
+          "special_bet_value": "hcp=1:0",
+          "outcome_id": "1713",
+          "parsed_special_bet_value": {
+            "hcp": "1:0"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2 (2:0)",
+          "odd_key": "Walinzi BSL (2:0)",
+          "odd_value": "80.0",
+          "special_bet_value": "hcp=2:0",
+          "outcome_id": "1713",
+          "parsed_special_bet_value": {
+            "hcp": "2:0"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "47",
+      "name": "HALFTIME/FULLTIME",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1/1",
+          "odd_key": "Bandarini BSL/Bandarini BSL",
+          "odd_value": "1.85",
+          "special_bet_value": "",
+          "outcome_id": "418",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1/X",
+          "odd_key": "Bandarini BSL/draw",
+          "odd_value": "21.0",
+          "special_bet_value": "",
+          "outcome_id": "420",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1/2",
+          "odd_key": "Bandarini BSL/Walinzi BSL",
+          "odd_value": "34.0",
+          "special_bet_value": "",
+          "outcome_id": "422",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X/1",
+          "odd_key": "draw/Bandarini BSL",
+          "odd_value": "4.7",
+          "special_bet_value": "",
+          "outcome_id": "424",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X/X",
+          "odd_key": "draw/draw",
+          "odd_value": "6.25",
+          "special_bet_value": "",
+          "outcome_id": "426",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X/2",
+          "odd_key": "draw/Walinzi BSL",
+          "odd_value": "18.25",
+          "special_bet_value": "",
+          "outcome_id": "428",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2/1",
+          "odd_key": "Walinzi BSL/Bandarini BSL",
+          "odd_value": "31.0",
+          "special_bet_value": "",
+          "outcome_id": "430",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2/X",
+          "odd_key": "Walinzi BSL/draw",
+          "odd_value": "39.0",
+          "special_bet_value": "",
+          "outcome_id": "432",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2/2",
+          "odd_key": "Walinzi BSL/Walinzi BSL",
+          "odd_value": "10.5",
+          "special_bet_value": "",
+          "outcome_id": "434",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "30",
+      "name": "WHICH TEAM TO SCORE",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "BOTH TEAMS",
+          "odd_key": "both teams",
+          "odd_value": "2.3",
+          "special_bet_value": "",
+          "outcome_id": "792",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "NONE",
+          "odd_key": "none",
+          "odd_value": "12.75",
+          "special_bet_value": "",
+          "outcome_id": "784",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "ONLY 1",
+          "odd_key": "only Bandarini BSL",
+          "odd_value": "1.95",
+          "special_bet_value": "",
+          "outcome_id": "788",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "ONLY 2",
+          "odd_key": "only Walinzi BSL",
+          "odd_value": "10.0",
+          "special_bet_value": "",
+          "outcome_id": "790",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "26",
+      "name": "ODD/EVEN",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "EVEN",
+          "odd_key": "even",
+          "odd_value": "1.85",
+          "special_bet_value": "",
+          "outcome_id": "72",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "ODD",
+          "odd_key": "odd",
+          "odd_value": "1.85",
+          "special_bet_value": "",
+          "outcome_id": "70",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "8",
+      "name": "1ST GOAL",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "NONE",
+          "odd_key": "none",
+          "odd_value": "12.75",
+          "special_bet_value": "goalnr=1",
+          "outcome_id": "7",
+          "parsed_special_bet_value": {
+            "goalnr": "1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1",
+          "odd_key": "Bandarini BSL",
+          "odd_value": "1.35",
+          "special_bet_value": "goalnr=1",
+          "outcome_id": "6",
+          "parsed_special_bet_value": {
+            "goalnr": "1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2",
+          "odd_key": "Walinzi BSL",
+          "odd_value": "3.65",
+          "special_bet_value": "goalnr=1",
+          "outcome_id": "8",
+          "parsed_special_bet_value": {
+            "goalnr": "1"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "20",
+      "name": "WALINZI BSL TOTAL",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 0.5",
+          "odd_key": "over 0.5",
+          "odd_value": "1.95",
+          "special_bet_value": "total=0.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 1.5",
+          "odd_key": "over 1.5",
+          "odd_value": "5.25",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 0.5",
+          "odd_key": "under 0.5",
+          "odd_value": "1.75",
+          "special_bet_value": "total=0.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 1.5",
+          "odd_key": "under 1.5",
+          "odd_value": "1.12",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "19",
+      "name": "BANDARINI BSL TOTAL",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 0.5",
+          "odd_key": "over 0.5",
+          "odd_value": "1.12",
+          "special_bet_value": "total=0.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 1.5",
+          "odd_key": "over 1.5",
+          "odd_value": "1.65",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 2.5",
+          "odd_key": "over 2.5",
+          "odd_value": "3.1",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 0.5",
+          "odd_key": "under 0.5",
+          "odd_value": "5.25",
+          "special_bet_value": "total=0.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 1.5",
+          "odd_key": "under 1.5",
+          "odd_value": "2.15",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 2.5",
+          "odd_key": "under 2.5",
+          "odd_value": "1.3",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "68",
+      "name": "1ST HALF - TOTAL",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 0.5",
+          "odd_key": "over 0.5",
+          "odd_value": "1.2",
+          "special_bet_value": "total=0.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 1",
+          "odd_key": "over 1",
+          "odd_value": "1.6",
+          "special_bet_value": "total=1",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 1.25",
+          "odd_key": "over 1.25",
+          "odd_value": "2.05",
+          "special_bet_value": "total=1.25",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "1.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 1.5",
+          "odd_key": "over 1.5",
+          "odd_value": "2.15",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 2.5",
+          "odd_key": "over 2.5",
+          "odd_value": "3.95",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 0.5",
+          "odd_key": "under 0.5",
+          "odd_value": "2.7",
+          "special_bet_value": "total=0.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "0.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 1",
+          "odd_key": "under 1",
+          "odd_value": "2.15",
+          "special_bet_value": "total=1",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "1"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 1.25",
+          "odd_key": "under 1.25",
+          "odd_value": "1.7",
+          "special_bet_value": "total=1.25",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "1.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 1.5",
+          "odd_key": "under 1.5",
+          "odd_value": "1.35",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 2.5",
+          "odd_key": "under 2.5",
+          "odd_value": "1.06",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "18",
+      "name": "TOTAL",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 1.5",
+          "odd_key": "over 1.5",
+          "odd_value": "1.3",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 2.25",
+          "odd_key": "over 2.25",
+          "odd_value": "1.75",
+          "special_bet_value": "total=2.25",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "2.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 2.5",
+          "odd_key": "over 2.5",
+          "odd_value": "2.0",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 2.75",
+          "odd_key": "over 2.75",
+          "odd_value": "2.3",
+          "special_bet_value": "total=2.75",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "2.75"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "OVER 3.5",
+          "odd_key": "over 3.5",
+          "odd_value": "3.65",
+          "special_bet_value": "total=3.5",
+          "outcome_id": "12",
+          "parsed_special_bet_value": {
+            "total": "3.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 1.5",
+          "odd_key": "under 1.5",
+          "odd_value": "3.25",
+          "special_bet_value": "total=1.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "1.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 2.25",
+          "odd_key": "under 2.25",
+          "odd_value": "2.0",
+          "special_bet_value": "total=2.25",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "2.25"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 2.5",
+          "odd_key": "under 2.5",
+          "odd_value": "1.75",
+          "special_bet_value": "total=2.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "2.5"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 2.75",
+          "odd_key": "under 2.75",
+          "odd_value": "1.55",
+          "special_bet_value": "total=2.75",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "2.75"
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "UNDER 3.5",
+          "odd_key": "under 3.5",
+          "odd_value": "1.25",
+          "special_bet_value": "total=3.5",
+          "outcome_id": "13",
+          "parsed_special_bet_value": {
+            "total": "3.5"
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "29",
+      "name": "BOTH TEAMS TO SCORE",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "YES",
+          "odd_key": "yes",
+          "odd_value": "2.3",
+          "special_bet_value": "",
+          "outcome_id": "74",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "NO",
+          "odd_key": "no",
+          "odd_value": "1.55",
+          "special_bet_value": "",
+          "outcome_id": "76",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "11",
+      "name": "DRAW NO BET",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1",
+          "odd_key": "Bandarini BSL",
+          "odd_value": "1.16",
+          "special_bet_value": "",
+          "outcome_id": "4",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2",
+          "odd_key": "Walinzi BSL",
+          "odd_value": "4.65",
+          "special_bet_value": "",
+          "outcome_id": "5",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "1",
+      "name": "1X2",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1",
+          "odd_key": "Bandarini BSL",
+          "odd_value": "1.4",
+          "special_bet_value": "",
+          "outcome_id": "1",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X",
+          "odd_key": "draw",
+          "odd_value": "4.7",
+          "special_bet_value": "",
+          "outcome_id": "2",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2",
+          "odd_key": "Walinzi BSL",
+          "odd_value": "6.25",
+          "special_bet_value": "",
+          "outcome_id": "3",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "60",
+      "name": "1ST HALF - 1X2",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1",
+          "odd_key": "Bandarini BSL",
+          "odd_value": "1.75",
+          "special_bet_value": "",
+          "outcome_id": "1",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X",
+          "odd_key": "draw",
+          "odd_value": "2.65",
+          "special_bet_value": "",
+          "outcome_id": "2",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "2",
+          "odd_key": "Walinzi BSL",
+          "odd_value": "7.5",
+          "special_bet_value": "",
+          "outcome_id": "3",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "63",
+      "name": "1ST HALF - DOUBLE CHANCE",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1/X",
+          "odd_key": "Bandarini BSL or draw",
+          "odd_value": "1.1",
+          "special_bet_value": "",
+          "outcome_id": "9",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1/2",
+          "odd_key": "Bandarini BSL or Walinzi BSL",
+          "odd_value": "1.4",
+          "special_bet_value": "",
+          "outcome_id": "10",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X/2",
+          "odd_key": "draw or Walinzi BSL",
+          "odd_value": "1.85",
+          "special_bet_value": "",
+          "outcome_id": "11",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent_virtual_id": "1409799000",
+      "sub_type_id": "10",
+      "name": "DOUBLE CHANCE",
+      "odds": [
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1/X",
+          "odd_key": "Bandarini BSL or draw",
+          "odd_value": "1.12",
+          "special_bet_value": "",
+          "outcome_id": "9",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "1/2",
+          "odd_key": "Bandarini BSL or Walinzi BSL",
+          "odd_value": "1.16",
+          "special_bet_value": "",
+          "outcome_id": "10",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        },
+        {
+          "parent_virtual_id": "1409799000",
+          "display": "X/2",
+          "odd_key": "draw or Walinzi BSL",
+          "odd_value": "2.45",
+          "special_bet_value": "",
+          "outcome_id": "11",
+          "parsed_special_bet_value": {
+            "": ""
+          }
+        }
+      ]
+    }
+  ],
+  "meta": [
+    {
+      "parent_virtual_id": "1409799000",
+      "home_team": "Bandarini BSL",
+      "away_team": "Walinzi BSL",
+      "season": "3134579",
+      "match_day": "10",
+      "start_time": "2026-09-14 23:08:52"
+    }
+  ]
+}

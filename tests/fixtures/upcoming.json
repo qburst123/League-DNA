@@ -1,0 +1,2392 @@
+{
+  "data": {
+    "10": [
+      {
+        "parent_virtual_id": "1409799000",
+        "home_team": "Bandarini BSL",
+        "away_team": "Walinzi BSL",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Bandarini BSL",
+        "home_odd": "1.4",
+        "neutral_odd": "4.7",
+        "away_odd": "6.25",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "over 2.5",
+                "odd_value": "2.0",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "under 2.5",
+                "odd_value": "1.75",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Bandarini BSL",
+              "draw",
+              "Walinzi BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "Bandarini BSL",
+                "odd_value": "1.4",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "draw",
+                "odd_value": "4.7",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "Walinzi BSL",
+                "odd_value": "6.25",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Bandarini BSL or draw",
+              "Bandarini BSL or Walinzi BSL",
+              "draw or Walinzi BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "Bandarini BSL or draw",
+                "odd_value": "1.12",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "Bandarini BSL or Walinzi BSL",
+                "odd_value": "1.16",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799000",
+                "odd_key": "draw or Walinzi BSL",
+                "odd_value": "2.45",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Bandarini BSL",
+                "away_team": "Walinzi BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799001",
+        "home_team": "Sakata Wazito",
+        "away_team": "P Rangers BSL",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Sakata Wazito",
+        "home_odd": "1.45",
+        "neutral_odd": "4.05",
+        "away_odd": "7.0",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "over 2.5",
+                "odd_value": "2.2",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "under 2.5",
+                "odd_value": "1.6",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Sakata Wazito",
+              "draw",
+              "P Rangers BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "Sakata Wazito",
+                "odd_value": "1.45",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "draw",
+                "odd_value": "4.05",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "P Rangers BSL",
+                "odd_value": "7.0",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Sakata Wazito or draw",
+              "Sakata Wazito or P Rangers BSL",
+              "draw or P Rangers BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "Sakata Wazito or draw",
+                "odd_value": "1.1",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "Sakata Wazito or P Rangers BSL",
+                "odd_value": "1.2",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799001",
+                "odd_key": "draw or P Rangers BSL",
+                "odd_value": "2.35",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Wazito",
+                "away_team": "P Rangers BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799002",
+        "home_team": "Sakata Mathare",
+        "away_team": "KCBB BSL",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Sakata Mathare",
+        "home_odd": "2.65",
+        "neutral_odd": "4.05",
+        "away_odd": "2.2",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "over 2.5",
+                "odd_value": "1.55",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "under 2.5",
+                "odd_value": "2.35",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Sakata Mathare",
+              "draw",
+              "KCBB BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "Sakata Mathare",
+                "odd_value": "2.65",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "draw",
+                "odd_value": "4.05",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "KCBB BSL",
+                "odd_value": "2.2",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Sakata Mathare or draw",
+              "Sakata Mathare or KCBB BSL",
+              "draw or KCBB BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "Sakata Mathare or draw",
+                "odd_value": "1.55",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "Sakata Mathare or KCBB BSL",
+                "odd_value": "1.22",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799002",
+                "odd_key": "draw or KCBB BSL",
+                "odd_value": "1.4",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Mathare",
+                "away_team": "KCBB BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799003",
+        "home_team": "Sakata Sharks",
+        "away_team": "Gor BSL",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Sakata Sharks",
+        "home_odd": "2.15",
+        "neutral_odd": "4.25",
+        "away_odd": "2.7",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "over 2.5",
+                "odd_value": "1.45",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "under 2.5",
+                "odd_value": "2.5",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Sakata Sharks",
+              "draw",
+              "Gor BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "Sakata Sharks",
+                "odd_value": "2.15",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "draw",
+                "odd_value": "4.25",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "Gor BSL",
+                "odd_value": "2.7",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Sakata Sharks or draw",
+              "Sakata Sharks or Gor BSL",
+              "draw or Gor BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "Sakata Sharks or draw",
+                "odd_value": "1.4",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "Sakata Sharks or Gor BSL",
+                "odd_value": "1.22",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799003",
+                "odd_key": "draw or Gor BSL",
+                "odd_value": "1.6",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Sharks",
+                "away_team": "Gor BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799004",
+        "home_team": "Kanairo Stars",
+        "away_team": "Sakata Nzoia",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Kanairo Stars",
+        "home_odd": "2.3",
+        "neutral_odd": "3.3",
+        "away_odd": "2.9",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "over 2.5",
+                "odd_value": "2.2",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "under 2.5",
+                "odd_value": "1.6",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Kanairo Stars",
+              "draw",
+              "Sakata Nzoia"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "Kanairo Stars",
+                "odd_value": "2.3",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "draw",
+                "odd_value": "3.3",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "Sakata Nzoia",
+                "odd_value": "2.9",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Kanairo Stars or draw",
+              "Kanairo Stars or Sakata Nzoia",
+              "draw or Sakata Nzoia"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "Kanairo Stars or draw",
+                "odd_value": "1.35",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "Kanairo Stars or Sakata Nzoia",
+                "odd_value": "1.3",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799004",
+                "odd_key": "draw or Sakata Nzoia",
+                "odd_value": "1.5",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Kanairo Stars",
+                "away_team": "Sakata Nzoia"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799005",
+        "home_team": "Bidii Co. BSL",
+        "away_team": "Leopard Sakata",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Bidii Co. BSL",
+        "home_odd": "3.95",
+        "neutral_odd": "3.15",
+        "away_odd": "1.95",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "over 2.5",
+                "odd_value": "2.05",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "under 2.5",
+                "odd_value": "1.7",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Bidii Co. BSL",
+              "draw",
+              "Leopard Sakata"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "Bidii Co. BSL",
+                "odd_value": "3.95",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "draw",
+                "odd_value": "3.15",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "Leopard Sakata",
+                "odd_value": "1.95",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Bidii Co. BSL or draw",
+              "Bidii Co. BSL or Leopard Sakata",
+              "draw or Leopard Sakata"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "Bidii Co. BSL or draw",
+                "odd_value": "1.7",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "Bidii Co. BSL or Leopard Sakata",
+                "odd_value": "1.3",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799005",
+                "odd_key": "draw or Leopard Sakata",
+                "odd_value": "1.22",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Bidii Co. BSL",
+                "away_team": "Leopard Sakata"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799006",
+        "home_team": "Ba Zoo BSL",
+        "away_team": "Tuska Sakata",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Ba Zoo BSL",
+        "home_odd": "7.75",
+        "neutral_odd": "3.5",
+        "away_odd": "1.5",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "over 2.5",
+                "odd_value": "1.95",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "under 2.5",
+                "odd_value": "1.75",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Ba Zoo BSL",
+              "draw",
+              "Tuska Sakata"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "Ba Zoo BSL",
+                "odd_value": "7.75",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "draw",
+                "odd_value": "3.5",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "Tuska Sakata",
+                "odd_value": "1.5",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Ba Zoo BSL or draw",
+              "Ba Zoo BSL or Tuska Sakata",
+              "draw or Tuska Sakata"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "Ba Zoo BSL or draw",
+                "odd_value": "2.25",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "Ba Zoo BSL or Tuska Sakata",
+                "odd_value": "1.25",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799006",
+                "odd_key": "draw or Tuska Sakata",
+                "odd_value": "1.09",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Ba Zoo BSL",
+                "away_team": "Tuska Sakata"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799007",
+        "home_team": "Kach BSL",
+        "away_team": "Batoto BSL",
+        "start_time": "2026-09-14 23:08:52",
+        "odd_key": "Kach BSL",
+        "home_odd": "2.15",
+        "neutral_odd": "3.75",
+        "away_odd": "2.9",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "10",
+        "remaining_time": "-00:02:21",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "over 2.5",
+                "odd_value": "2.35",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "under 2.5",
+                "odd_value": "1.55",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Kach BSL",
+              "draw",
+              "Batoto BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "Kach BSL",
+                "odd_value": "2.15",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "draw",
+                "odd_value": "3.75",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "Batoto BSL",
+                "odd_value": "2.9",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Kach BSL or draw",
+              "Kach BSL or Batoto BSL",
+              "draw or Batoto BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "Kach BSL or draw",
+                "odd_value": "1.35",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "Kach BSL or Batoto BSL",
+                "odd_value": "1.25",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799007",
+                "odd_key": "draw or Batoto BSL",
+                "odd_value": "1.6",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Kach BSL",
+                "away_team": "Batoto BSL"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "11": [
+      {
+        "parent_virtual_id": "1409799008",
+        "home_team": "Batoto BSL",
+        "away_team": "Sakata Wazito",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "Batoto BSL",
+        "home_odd": "2.85",
+        "neutral_odd": "3.7",
+        "away_odd": "2.15",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "over 2.5",
+                "odd_value": "1.7",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "under 2.5",
+                "odd_value": "2.05",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Batoto BSL",
+              "draw",
+              "Sakata Wazito"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "Batoto BSL",
+                "odd_value": "2.85",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "draw",
+                "odd_value": "3.7",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "Sakata Wazito",
+                "odd_value": "2.15",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Batoto BSL or draw",
+              "Batoto BSL or Sakata Wazito",
+              "draw or Sakata Wazito"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "Batoto BSL or draw",
+                "odd_value": "1.6",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "Batoto BSL or Sakata Wazito",
+                "odd_value": "1.25",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799008",
+                "odd_key": "draw or Sakata Wazito",
+                "odd_value": "1.35",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Batoto BSL",
+                "away_team": "Sakata Wazito"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799009",
+        "home_team": "Sakata Nzoia",
+        "away_team": "Kach BSL",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "Sakata Nzoia",
+        "home_odd": "2.9",
+        "neutral_odd": "3.25",
+        "away_odd": "2.35",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "over 2.5",
+                "odd_value": "2.35",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "under 2.5",
+                "odd_value": "1.55",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Sakata Nzoia",
+              "draw",
+              "Kach BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "Sakata Nzoia",
+                "odd_value": "2.9",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "draw",
+                "odd_value": "3.25",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "Kach BSL",
+                "odd_value": "2.35",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Sakata Nzoia or draw",
+              "Sakata Nzoia or Kach BSL",
+              "draw or Kach BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "Sakata Nzoia or draw",
+                "odd_value": "1.5",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "Sakata Nzoia or Kach BSL",
+                "odd_value": "1.3",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799009",
+                "odd_key": "draw or Kach BSL",
+                "odd_value": "1.35",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Nzoia",
+                "away_team": "Kach BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799010",
+        "home_team": "P Rangers BSL",
+        "away_team": "Bandarini BSL",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "P Rangers BSL",
+        "home_odd": "3.9",
+        "neutral_odd": "3.05",
+        "away_odd": "2.0",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "over 2.5",
+                "odd_value": "2.95",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "under 2.5",
+                "odd_value": "1.35",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "P Rangers BSL",
+              "draw",
+              "Bandarini BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "P Rangers BSL",
+                "odd_value": "3.9",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "draw",
+                "odd_value": "3.05",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "Bandarini BSL",
+                "odd_value": "2.0",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "P Rangers BSL or draw",
+              "P Rangers BSL or Bandarini BSL",
+              "draw or Bandarini BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "P Rangers BSL or draw",
+                "odd_value": "1.65",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "P Rangers BSL or Bandarini BSL",
+                "odd_value": "1.35",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799010",
+                "odd_key": "draw or Bandarini BSL",
+                "odd_value": "1.22",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "P Rangers BSL",
+                "away_team": "Bandarini BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799011",
+        "home_team": "Sakata Mathare",
+        "away_team": "Bidii Co. BSL",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "Sakata Mathare",
+        "home_odd": "2.0",
+        "neutral_odd": "3.6",
+        "away_odd": "3.25",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "over 2.5",
+                "odd_value": "1.7",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "under 2.5",
+                "odd_value": "2.05",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Sakata Mathare",
+              "draw",
+              "Bidii Co. BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "Sakata Mathare",
+                "odd_value": "2.0",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "draw",
+                "odd_value": "3.6",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "Bidii Co. BSL",
+                "odd_value": "3.25",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Sakata Mathare or draw",
+              "Sakata Mathare or Bidii Co. BSL",
+              "draw or Bidii Co. BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "Sakata Mathare or draw",
+                "odd_value": "1.3",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "Sakata Mathare or Bidii Co. BSL",
+                "odd_value": "1.25",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799011",
+                "odd_key": "draw or Bidii Co. BSL",
+                "odd_value": "1.65",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Sakata Mathare",
+                "away_team": "Bidii Co. BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799012",
+        "home_team": "Tuska Sakata",
+        "away_team": "Sakata Sharks",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "Tuska Sakata",
+        "home_odd": "2.0",
+        "neutral_odd": "3.4",
+        "away_odd": "3.5",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "over 2.5",
+                "odd_value": "1.8",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "under 2.5",
+                "odd_value": "1.9",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Tuska Sakata",
+              "draw",
+              "Sakata Sharks"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "Tuska Sakata",
+                "odd_value": "2.0",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "draw",
+                "odd_value": "3.4",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "Sakata Sharks",
+                "odd_value": "3.5",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Tuska Sakata or draw",
+              "Tuska Sakata or Sakata Sharks",
+              "draw or Sakata Sharks"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "Tuska Sakata or draw",
+                "odd_value": "1.25",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "Tuska Sakata or Sakata Sharks",
+                "odd_value": "1.3",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799012",
+                "odd_key": "draw or Sakata Sharks",
+                "odd_value": "1.7",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Tuska Sakata",
+                "away_team": "Sakata Sharks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799013",
+        "home_team": "KCBB BSL",
+        "away_team": "Ba Zoo BSL",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "KCBB BSL",
+        "home_odd": "1.35",
+        "neutral_odd": "4.85",
+        "away_odd": "7.5",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "over 2.5",
+                "odd_value": "1.65",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "under 2.5",
+                "odd_value": "2.15",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "KCBB BSL",
+              "draw",
+              "Ba Zoo BSL"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "KCBB BSL",
+                "odd_value": "1.35",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "draw",
+                "odd_value": "4.85",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "Ba Zoo BSL",
+                "odd_value": "7.5",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "KCBB BSL or draw",
+              "KCBB BSL or Ba Zoo BSL",
+              "draw or Ba Zoo BSL"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "KCBB BSL or draw",
+                "odd_value": "1.09",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "KCBB BSL or Ba Zoo BSL",
+                "odd_value": "1.15",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799013",
+                "odd_key": "draw or Ba Zoo BSL",
+                "odd_value": "2.65",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "KCBB BSL",
+                "away_team": "Ba Zoo BSL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799014",
+        "home_team": "Walinzi BSL",
+        "away_team": "Leopard Sakata",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "Walinzi BSL",
+        "home_odd": "5.5",
+        "neutral_odd": "3.75",
+        "away_odd": "1.6",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "over 2.5",
+                "odd_value": "1.9",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "under 2.5",
+                "odd_value": "1.8",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Walinzi BSL",
+              "draw",
+              "Leopard Sakata"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "Walinzi BSL",
+                "odd_value": "5.5",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "draw",
+                "odd_value": "3.75",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "Leopard Sakata",
+                "odd_value": "1.6",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Walinzi BSL or draw",
+              "Walinzi BSL or Leopard Sakata",
+              "draw or Leopard Sakata"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "Walinzi BSL or draw",
+                "odd_value": "2.1",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "Walinzi BSL or Leopard Sakata",
+                "odd_value": "1.22",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799014",
+                "odd_key": "draw or Leopard Sakata",
+                "odd_value": "1.15",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Walinzi BSL",
+                "away_team": "Leopard Sakata"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parent_virtual_id": "1409799015",
+        "home_team": "Gor BSL",
+        "away_team": "Kanairo Stars",
+        "start_time": "2026-09-14 23:12:32",
+        "odd_key": "Gor BSL",
+        "home_odd": "1.22",
+        "neutral_odd": "6.5",
+        "away_odd": "9.25",
+        "outcome_id": "1",
+        "name": "1X2",
+        "sub_type_id": "1",
+        "special_bet_value": "",
+        "season": "3134579",
+        "match_day": "11",
+        "remaining_time": "-00:06:01",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "markets": [
+          {
+            "name": "Total",
+            "sub_type_id": 18,
+            "odd_keys": [
+              "over 2.5",
+              "under 2.5"
+            ],
+            "odds": [
+              {
+                "display": "over 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "over 2.5",
+                "odd_value": "1.6",
+                "outcome_id": "12",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              },
+              {
+                "display": "under 2.5",
+                "special_bet_value": "total=2.5",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "under 2.5",
+                "odd_value": "2.2",
+                "outcome_id": "13",
+                "sub_type_id": "18",
+                "name": "Total",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              }
+            ]
+          },
+          {
+            "name": "1X2",
+            "sub_type_id": 1,
+            "odd_keys": [
+              "Gor BSL",
+              "draw",
+              "Kanairo Stars"
+            ],
+            "odds": [
+              {
+                "display": "1",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "Gor BSL",
+                "odd_value": "1.22",
+                "outcome_id": "1",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              },
+              {
+                "display": "X",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "draw",
+                "odd_value": "6.5",
+                "outcome_id": "2",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              },
+              {
+                "display": "2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "Kanairo Stars",
+                "odd_value": "9.25",
+                "outcome_id": "3",
+                "sub_type_id": "1",
+                "name": "1X2",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              }
+            ]
+          },
+          {
+            "name": "Double chance",
+            "sub_type_id": 10,
+            "odd_keys": [
+              "Gor BSL or draw",
+              "Gor BSL or Kanairo Stars",
+              "draw or Kanairo Stars"
+            ],
+            "odds": [
+              {
+                "display": "1/x",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "Gor BSL or draw",
+                "odd_value": "1.06",
+                "outcome_id": "9",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              },
+              {
+                "display": "1/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "Gor BSL or Kanairo Stars",
+                "odd_value": "1.09",
+                "outcome_id": "10",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              },
+              {
+                "display": "X/2",
+                "special_bet_value": "",
+                "parent_virtual_id": "1409799015",
+                "odd_key": "draw or Kanairo Stars",
+                "odd_value": "3.35",
+                "outcome_id": "11",
+                "sub_type_id": "10",
+                "name": "Double chance",
+                "home_team": "Gor BSL",
+                "away_team": "Kanairo Stars"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

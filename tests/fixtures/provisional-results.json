@@ -1,0 +1,148 @@
+{
+  "data": {
+    "query": {
+      "season": 3134579,
+      "matchday": 9
+    },
+    "results": [
+      {
+        "home_team": "Gor BSL",
+        "away_team": "Ba Zoo BSL",
+        "first_half_score": "0:1",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "ht_score": "1:1",
+        "ft_score": "1:1",
+        "saved_ht_score": null,
+        "saved_ft_score": null,
+        "meta": {
+          "ht_score": "1:1",
+          "ft_score": "1:1",
+          "home_team_cards": "1",
+          "home_team_yellow_cards": "1",
+          "home_team_red_cards": "0",
+          "away_team_cards": "1",
+          "away_team_yellow_cards": "1",
+          "away_team_red_cards": "0",
+          "status": "live",
+          "match_status": "started"
+        }
+      },
+      {
+        "home_team": "Tuska Sakata",
+        "away_team": "Sakata Mathare",
+        "first_half_score": "1:0",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "ht_score": "3:1",
+        "ft_score": "3:2",
+        "saved_ht_score": null,
+        "saved_ft_score": null,
+        "meta": {
+          "ht_score": "3:1",
+          "ft_score": "3:2",
+          "home_team_cards": "1",
+          "home_team_yellow_cards": "1",
+          "home_team_red_cards": "0",
+          "away_team_cards": "0",
+          "away_team_yellow_cards": "0",
+          "away_team_red_cards": "0",
+          "status": "live",
+          "match_status": "started"
+        }
+      },
+      {
+        "home_team": "KCBB BSL",
+        "away_team": "Bidii Co. BSL",
+        "first_half_score": "1:0",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "ht_score": "0:0",
+        "ft_score": "1:0",
+        "saved_ht_score": null,
+        "saved_ft_score": null,
+        "meta": {
+          "ht_score": "0:0",
+          "ft_score": "1:0",
+          "home_team_cards": "2",
+          "home_team_yellow_cards": "1",
+          "home_team_red_cards": "1",
+          "away_team_cards": "0",
+          "away_team_yellow_cards": "0",
+          "away_team_red_cards": "0",
+          "status": "live",
+          "match_status": "started"
+        }
+      },
+      {
+        "home_team": "Sakata Nzoia",
+        "away_team": "Sakata Sharks",
+        "first_half_score": "0:1",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "ht_score": "0:1",
+        "ft_score": "0:1",
+        "saved_ht_score": null,
+        "saved_ft_score": null,
+        "meta": {
+          "ht_score": "0:1",
+          "ft_score": "0:1",
+          "home_team_cards": "0",
+          "home_team_yellow_cards": "0",
+          "home_team_red_cards": "0",
+          "away_team_cards": "0",
+          "away_team_yellow_cards": "0",
+          "away_team_red_cards": "0",
+          "status": "live",
+          "match_status": "started"
+        }
+      },
+      {
+        "home_team": "Walinzi BSL",
+        "away_team": "Sakata Wazito",
+        "first_half_score": "0:1",
+        "competition_id": "26",
+        "competition_name": "Betika Sakata League",
+        "ht_score": "0:0",
+        "ft_score": "0:1",
+        "saved_ht_score": null,
+        "saved_ft_score": null,
+        "meta": {
+          "ht_score": "0:0",
+          "ft_score": "0:1",
+          "home_team_cards": "3",
+          "home_team_yellow_cards": "3",
+          "home_team_red_cards": "0",
+          "away_team_cards": "2",
+          "away_team_yellow_cards": "2",
+          "away_team_red_cards": "0",
+          "status": "live",
+          "match_status": "started"
+        }
+      }
+    ],
+    "season_matchdays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "last_10_seasons": [
+      3134579,
+      3134547,
+      3134516,
+      3134487,
+      3134462,
+      3134430,
+      3134406,
+      3134373,
+      3134345,
+      3134314
+    ]
+  }
+}

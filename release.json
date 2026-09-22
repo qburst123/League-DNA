@@ -1,0 +1,116 @@
+{
+  "application": "League DNA",
+  "version": "2.8.0",
+  "created_utc": "2026-09-20T00:00:00Z",
+  "new_workspace": "Head-to-head matchup DNA \u2014 the matchday to play with its HT/FT card and the 1ST/2ND/EQUAL half call underneath it, the season's frozen calls under every recorded score, and a historical analysis of any team pair across the archive",
+  "research_scope": "Walk-forward prediction of the highest scoring half (1st half / 2nd half / equal) for the matchday set to play, from the recorded meetings of that exact fixture; every sheet is frozen when the matchday is announced and graded against published HT/FT",
+  "preserved_workspaces": [
+    "FT score Prediction Playground",
+    "Season sheets",
+    "Score engines & explainability",
+    "Head-to-head matchup DNA",
+    "Correct score Gold",
+    "Single-hit Trail",
+    "FT Sequence Explorer",
+    "Overview",
+    "DNA Explorer",
+    "Pattern Comparator",
+    "Results Archive",
+    "Data Health"
+  ],
+  "source_snapshot_utc": "2026-09-20T09:00:00Z",
+  "source_final_records": 11144,
+  "python_tests_passed": 152,
+  "replay_cases_checked": 40,
+  "replay_errors": [],
+  "browser_errors": [],
+  "source_database": "data/league.sqlite",
+  "sequence_database": "data/ft-sequences.sqlite",
+  "runtime_timezone_dependency": "tzdata==2026.3",
+  "standalone_entrypoint": "League-DNA.html",
+  "live_launcher": "run.py",
+  "ongoing_season_replayable": true,
+  "continuation_ledger_engine": "earlier-season-continuation-v1",
+  "continuation_rows_checked": 512,
+  "browser_checks": 4,
+  "package": "League-DNA-v2.8.0.zip",
+  "source_seasons": 47,
+  "source_records_total": 11144,
+  "current_season": 3136632,
+  "current_season_final_records": 136,
+  "incoming_teams": 16,
+  "package_note": "PACKAGE.md",
+  "package_variant": "full",
+  "packaged_utc": "2026-09-20T09:44:12Z",
+  "package_integrity": "databases snapshotted, checkpointed and vacuumed",
+  "playground": {
+    "board": "FT score Prediction Playground/index.html",
+    "route": "/playground",
+    "api": [
+      "/api/playground",
+      "/api/playground/tick",
+      "/api/playground/history?season=",
+      "/api/playground/sheet?season=&day=",
+      "/api/playground/rebuild",
+      "/api/playground/status"
+    ],
+    "engines": 8,
+    "candidate_engines": [
+      "h2h (head-to-head & venue) \u2014 measured leave-one-out, did not improve the mixture, held back"
+    ],
+    "blends": [
+      "hit_blend (exact hits)",
+      "blend (log loss)"
+    ],
+    "ledger": "data/predictions.sqlite \u2014 one sheet per matchday: locked once when the matchday is announced, never rewritten; grading fills result columns only; source live|backfill",
+    "sheet_history": "GET /api/playground/history?season= and /api/playground/sheet?season=&day=",
+    "board_rows": "Recorded FT score on top, the frozen walk-forward prediction for the same matchday underneath",
+    "live_refresh": "client beats /api/playground/tick every 4 s (~2 ms) and pulls the full payload only when board_key moves; the service syncs the ledger every 5 s and rebuilds the report in the background (throttled to 240 s)",
+    "cache": "data/predictions.sqlite + data/live-sheets.json + data/backtest.json + data/playground.json",
+    "freeze_proof": "live sheets locked up to 206 s before kick-off; the browser checker reloads the page and compares the season-keyed pick|verdict cells of every played matchday",
+    "colours": "green = exact FT, amber = right result, red = wrong, purple = to play",
+    "measures": {
+      "sheets": null,
+      "picks": null,
+      "graded": null,
+      "note": "read the live figures from /api/health and the workspace; the report is refitted as the archive grows"
+    }
+  },
+  "prediction_ledger": "data/predictions.sqlite (frozen sheets, locked once and never overwritten)",
+  "matchups": {
+    "board": "#/matchups \u2014 Live board tab",
+    "page": "/matchups (also the Head-to-head matchup DNA navigation entry)",
+    "api": [
+      "/api/matchups",
+      "/api/matchups/tick",
+      "/api/matchups/pairs",
+      "/api/matchups/pair",
+      "/api/matchups/rebuild"
+    ],
+    "index": "backend/matchup.py \u2014 MatchupIndex (matchup_index tables in data/league.sqlite)",
+    "ledger": "data/predictions.sqlite \u2014 half_sheets/half_picks: a sheet is locked when the matchday is announced, grading only ever fills result columns",
+    "call": "highest scoring half \u2014 1H = ht_home+ht_away, 2H = (ft_home-ht_home)+(ft_away-ht_away), EQ = tie",
+    "probability": "Jeffreys-smoothed three-way share of that exact fixture's recorded meetings",
+    "sub_workspace": "Historical analysis tab \u2014 team-pair dropdown over every archived pair, venue scope, every recorded meeting with HT, FT, both halves and the half that won",
+    "live_refresh": "client beats /api/matchups/tick every 4 s and pulls the board only when board_key moves",
+    "colours": "green = the half call was right, red = wrong, purple = still to play, grey = no card"
+  },
+  "collector": {
+    "gaps": "the history worker fills published-but-missing matchdays first, current season first and newest day first, then walks season ids in likelihood order and finishes with an exhaustive sweep",
+    "discovery": "backend/discovery.py \u2014 SeasonScanner (walk pass then sweep pass, one probe per request)",
+    "fairness": "backend/source.py \u2014 reserved-share lane scheduler (archive lane 0.55 of the last 12 slots)",
+    "storage": "wal_autocheckpoint=256 and journal_size_limit=4 MB so side files stay inside the workspace budget"
+  },
+  "packages": {
+    "note": "the sha256 of each published archive is recorded in RELEASES.md and in the release.json that sits next to the archives, not here",
+    "self_reference": "this file is inside the archive, so it cannot carry its own hash"
+  },
+  "package_verification": "python3 scripts/verify_archive.py <archive> --launch-test",
+  "playground_board": "FT score Prediction Playground/index.html",
+  "playground_board_files": [
+    "index.html",
+    "README.md",
+    "playground.json"
+  ],
+  "playground_cache": "data/playground.json, data/live-sheets.json, data/backtest.json"
+}
