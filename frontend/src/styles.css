@@ -26,3 +26,20 @@
 .pattern-card strong{font-size:8px}.pattern-card>span{font-size:9.5px}.dna-table-row .dna-label strong{font-size:10px}.alignment-team strong{font-size:10px}
 @media(min-width:1600px){:root{--cell:32px;--label:184px}}
 @media(max-width:760px){:root{--cell:31px;--gap:4px;--label:163px}.explorer-toolbar>.filter-group{flex-basis:100%;width:100%}.helix-art{mask-image:linear-gradient(to right,transparent 25%,#000 95%)}.dna-table-row .dna-label strong{font-size:9px}.alignment-team strong{font-size:9px}}
+
+/* --- on-demand recovery (clickable data-health cells) --- */
+.coverage-cell.clickable{cursor:pointer;transition:transform .12s,box-shadow .12s,filter .12s}
+.coverage-cell.clickable:hover{transform:translateY(-1px) scale(1.12);box-shadow:0 2px 6px rgba(120,90,160,.25);filter:brightness(1.06);z-index:2;position:relative}
+.coverage-cell.clickable:focus-visible{outline:2px solid var(--purple);outline-offset:1px}
+.coverage-cell.recovering{background:#e4dcf5 !important;border:1px solid #b79ce0 !important;color:#7a5aa8 !important;animation:recoverPulse 1s ease-in-out infinite}
+.coverage-cell.just-done{box-shadow:0 0 0 2px #9dac87 inset}
+.coverage-cell.still-missing{box-shadow:0 0 0 1px #e8b98c inset}
+@keyframes recoverPulse{0%,100%{opacity:1}50%{opacity:.55}}
+.recover-strip{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 23px 6px;padding:10px 14px;background:#f4f0fa;border:1px solid #e3d8f2;border-radius:7px;font-size:9px;color:var(--muted)}
+.recover-strip-title{display:flex;align-items:center;gap:6px;font-weight:500;color:#7a5aa8}
+.recover-strip-stats{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.recover-strip-stats b{font-weight:600;color:var(--soft)}
+.recover-strip-stats b.ok{color:#7f9a5e}
+.recover-strip-stats b.bad{color:#c08a5a}
+.recover-strip .spin{color:#7a5aa8}
+@media(max-width:760px){.recover-strip{margin:0 15px 6px;font-size:8px}}

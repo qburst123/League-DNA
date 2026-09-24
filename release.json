@@ -1,6 +1,6 @@
 {
   "application": "League DNA",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "created_utc": "2026-09-20T00:00:00Z",
   "new_workspace": "Head-to-head matchup DNA \u2014 the matchday to play with its HT/FT card and the 1ST/2ND/EQUAL half call underneath it, the season's frozen calls under every recorded score, and a historical analysis of any team pair across the archive",
   "research_scope": "Walk-forward prediction of the highest scoring half (1st half / 2nd half / equal) for the matchday set to play, from the recorded meetings of that exact fixture; every sheet is frozen when the matchday is announced and graded against published HT/FT",
@@ -33,7 +33,7 @@
   "continuation_ledger_engine": "earlier-season-continuation-v1",
   "continuation_rows_checked": 512,
   "browser_checks": 4,
-  "package": "League-DNA-v2.8.0.zip",
+  "package": "League-DNA-v2.9.0.zip",
   "source_seasons": 47,
   "source_records_total": 11144,
   "current_season": 3136632,
@@ -112,5 +112,16 @@
     "README.md",
     "playground.json"
   ],
-  "playground_cache": "data/playground.json, data/live-sheets.json, data/backtest.json"
+  "playground_cache": "data/playground.json, data/live-sheets.json, data/backtest.json",
+  "recovery": {
+    "workspace": "Data Health",
+    "feature": "clickable coverage table with on-demand matchday recovery",
+    "mechanism": "Clicking an empty season/matchday box, or 'Recover all missing', queues that matchday for a background worker. The worker queries the public results feed that backs Betika's results page (no browser is opened) and stores the matchday only when the source answers with that exact day's eight HT/FT finals. Clamped or partial answers are reported honestly, never misfiled or invented. The shared one-request-per-second budget is respected.",
+    "api": [
+      "GET /api/recover/status",
+      "POST /api/recover/cell",
+      "POST /api/recover/all"
+    ],
+    "first_full_sweep": "484 matchdays recovered across 62 seasons; published-but-unfilled cells reduced to zero"
+  }
 }

@@ -10,7 +10,10 @@ data/*-shm
 data/league-backup-*
 *.zip
 
-# The datasets travel with the release asset (League-DNA-v2.8.0.zip), not with the source tree:
-# data/league.sqlite is ~70 MB and data/ft-sequences.sqlite ~26 MB, past what belongs in git.
+# The datasets travel with the release asset (League-DNA-v2.9.0.zip), not the source tree:
+# data/league.sqlite (~90 MB) and data/ft-sequences.sqlite (~26 MB) don't belong in git.
 data/*.sqlite
 data/*.json
+
+# generated offline entry point (built by scripts/build_app.py), not source
+League-DNA.html

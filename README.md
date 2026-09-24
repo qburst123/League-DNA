@@ -243,10 +243,10 @@ This repository carries the source: the FastAPI collector and services in `backe
 workspaces in `frontend/src/`, the audit and packaging tools in `scripts/`, the checks in `tests/`,
 and the built interface in `web/`.
 
-The recorded datasets are **not** in git — `data/league.sqlite` is roughly 70 MB and
+The recorded datasets are **not** in git — `data/league.sqlite` is roughly 90 MB and
 `data/ft-sequences.sqlite` roughly 26 MB. They ship inside the release asset
-**`League-DNA-v2.8.0.zip`** (attached to the release, or in the workspace next to this repo), which is
-a complete runnable build: extract it, install `requirements.txt`, and run `python3 run.py --port 8000`.
+**`League-DNA-v2.9.0.zip`** (attached to the release), which is a complete runnable build: extract
+it, install `requirements.txt`, and run `python3 run.py --port 8000`.
 
 A fresh clone without the databases still starts: the archive reads empty and the collector fills it
 from the published source. The one file that cannot be regenerated is `data/predictions.sqlite` — the

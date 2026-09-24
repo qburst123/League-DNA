@@ -20,6 +20,8 @@ from pydantic import BaseModel, Field
 from starlette.background import BackgroundTask
 
 from .collector import Collector
+from .recover import Recoverer
+from .source import START_SEASON
 from .store import Store, dumps
 from .patterns import KINDS
 from .gold import compare_correct_scores
@@ -35,6 +37,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = Path(os.environ.get("LEAGUE_DATA_DIR", str(ROOT / "data")))
 store = Store(DATA / "league.sqlite")
 collector = Collector(store)
+recoverer = Recoverer(store, collector)
 sequence_index = SequenceIndex(DATA / 'ft-sequences.sqlite')
 # Heavy multi-model work; never rebuilt inside a request (see backend/playground_service.py).
 playground_service = PlaygroundService(store, DATA)
@@ -154,6 +157,7 @@ async def lifespan(app):
     quiet_connection_resets(asyncio.get_running_loop())
     if os.environ.get("LEAGUE_OFFLINE") != "1":
         await collector.start()
+        recoverer.start()
     indexing_task = asyncio.create_task(index_sequences())
     playground_task = None if PLAYGROUND_OFFLINE else asyncio.create_task(refresh_playground())
     yield
@@ -161,6 +165,7 @@ async def lifespan(app):
     if playground_task:
         playground_task.cancel()
     await asyncio.gather(indexing_task, *( [playground_task] if playground_task else []), return_exceptions=True)
+    await recoverer.stop()
     await collector.stop()
     sequence_index.close()
     store.close()
@@ -432,6 +437,40 @@ async def retry_history():
         store.bump()
     collector.wake.set()
     return {"ok": True, "message": "Incomplete matchdays requeued; source rate limits still apply."}
+
+
+class RecoverCellModel(BaseModel):
+    season: int = Field(ge=START_SEASON)
+    day: int = Field(ge=1, le=30)
+
+
+@app.get("/api/recover/status")
+async def recover_status():
+    """Progress of the on-demand recovery worker (queued, in flight, recovered, failed)."""
+    return {"ok": True, **recoverer.status()}
+
+
+@app.post("/api/recover/cell")
+async def recover_cell(body: RecoverCellModel):
+    """Recover one matchday now: the operator clicked an empty cell in the data health table.
+
+    The results feed that backs Betika's results page is queried in the background —
+    no browser is opened. The matchday is stored only if the source answers with that
+    exact day's finals; a clamped or partial answer is recorded as an error, never misfiled.
+    """
+    try:
+        state = recoverer.enqueue_cell(body.season, body.day)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    return {"ok": True, "queued": {"season": body.season, "day": body.day}, **state}
+
+
+@app.post("/api/recover/all")
+async def recover_all():
+    """Queue every missing-but-recoverable matchday: published days still open, and any
+    matchday in a season that is already in the past. Newest season first."""
+    state = recoverer.enqueue_all()
+    return {"ok": True, **state}
 
 
 class PinModel(BaseModel):
