@@ -1,19 +1,39 @@
-frontend/node_modules/
-frontend/.vite/
+venv/
+
+# Python caches
 __pycache__/
 **/__pycache__/
 .pytest_cache/
 .venv/
 .env
+
+# Frontend
+frontend/node_modules/
+frontend/.vite/
+
+# Live collector data — travels with the release asset, not the source tree.
+data/league.sqlite
+data/league.sqlite-*
+data/ft-sequences.sqlite
+data/ft-sequences.sqlite-*
+data/predictions.sqlite
+data/predictions.sqlite-*
+data/half-time.sqlite
+data/half-time.sqlite-*
+data/edge.sqlite
+data/edge.sqlite-*
+data/league-backup-*
 data/*-wal
 data/*-shm
-data/league-backup-*
-*.zip
-
-# The datasets travel with the release asset (League-DNA-v2.9.0.zip), not the source tree:
-# data/league.sqlite (~90 MB) and data/ft-sequences.sqlite (~26 MB) don't belong in git.
-data/*.sqlite
 data/*.json
 
-# generated offline entry point (built by scripts/build_app.py), not source
+# Betika analyzer cache
+betika_analyzer/cache/
+
+# Generated static entry
 League-DNA.html
+
+# Release artefacts
+*.zip
+*.tar.gz
+releases/

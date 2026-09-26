@@ -4,3 +4,10 @@ httpx==0.28.1
 beautifulsoup4==4.15.0
 pytest==9.0.3
 tzdata==2026.3
+
+# Betika Virtual Edge Analyzer
+numpy==1.26.4
+scipy==1.12.0
+statsmodels==0.14.1
+pandas==2.2.1
+plotly==5.20.0

@@ -34,7 +34,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BOARD_DIR_NAME = "FT score Prediction Playground"      # the standalone board workspace
 BOARD_FILES = ("index.html", "README.md", "playground.json")
-EXCLUDE_DIRS = {"node_modules", ".vite", "__pycache__", ".pytest_cache", ".cache", ".venv", "research", "releases"}
+EXCLUDE_DIRS = {"node_modules", ".vite", "__pycache__", ".pytest_cache", ".cache", ".venv", "venv", "research", "releases"}
 EXCLUDE_SUFFIX = {".pyc", ".pyo", "-wal", "-shm", ".DS_Store", ".zip"}
 # The prediction ledger travels with the release: the frozen sheets are the record of what the
 # board said *before* each matchday was played, and that record cannot be reconstructed later for
@@ -258,7 +258,10 @@ def verify(target: Path, expect_offline: bool = False) -> dict:
             methods = ["gzip"]
             folder = Path(tempfile.mkdtemp())
             try:
-                archive.extractall(folder, filter="data")
+                try:
+                    archive.extractall(folder, filter="data")
+                except TypeError:
+                    archive.extractall(folder)
                 extracted = sum(1 for item in folder.rglob("*") if item.is_file())
             finally:
                 shutil.rmtree(folder, ignore_errors=True)

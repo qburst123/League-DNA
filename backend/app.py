@@ -32,6 +32,7 @@ from .replay import replay_report, replay_target_state
 from .forecast import cached_season_ledger
 from .playground_service import PlaygroundService
 from .matchup import MatchupService
+from .betika_edge import edge as betika_edge
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = Path(os.environ.get("LEAGUE_DATA_DIR", str(ROOT / "data")))
@@ -667,6 +668,138 @@ def playground_page():
     if PLAYGROUND_HTML.exists():
         return FileResponse(PLAYGROUND_HTML, media_type="text/html")
     return HTMLResponse(PLAYGROUND_ASSIST, status_code=200)
+
+
+# ----------------------------------------------------------------------
+# Betika Virtual Edge Analyzer workspace routes
+# ----------------------------------------------------------------------
+# All writers go to data/edge.sqlite (owned by this package).  Readers
+# route through the live archive when it has data, otherwise the bundled
+# fixtures under tests/fixtures/ are used.  The exact same patterns as
+# the rest of the v2.9.0 backend (FASTAPI-only handlers, JSON in/out).
+betika_edge.bootstrap()
+
+
+def _betika_int(value, default=None, ge=None, le=None):
+    try:
+        out = int(value) if value is not None else default
+    except (TypeError, ValueError):
+        out = default
+    if out is None:
+        return None
+    if ge is not None and out < ge:
+        out = ge
+    if le is not None and out > le:
+        out = le
+    return out
+
+
+@app.get("/api/betika-edge/status")
+def betika_status():
+    return betika_edge.status()
+
+
+@app.post("/api/betika-edge/refresh")
+def betika_refresh():
+    return betika_edge.refresh()
+
+
+@app.get("/api/betika-edge/teams")
+def betika_teams():
+    return {"teams": betika_edge.teams(),
+            "profiles": betika_edge.team_profiles()}
+
+
+@app.get("/api/betika-edge/matches")
+def betika_matches(season: int | None = None, matchday: int | None = None):
+    season = _betika_int(season, ge=3134345)
+    matchday = _betika_int(matchday, ge=1, le=30)
+    return {"matches": betika_edge.matches(season=season, matchday=matchday)}
+
+
+@app.get("/api/betika-edge/matchday")
+def betika_matchday(season: int = Query(ge=3134345)):
+    return betika_edge.matchday(season=season)
+
+
+@app.get("/api/betika-edge/markets")
+def betika_markets(match_id: str = Query(min_length=1, max_length=120)):
+    return {"markets": betika_edge.markets_for(match_id)}
+
+
+@app.get("/api/betika-edge/no-vig")
+def betika_no_vig(match_id: str = Query(min_length=1, max_length=120)):
+    return betika_edge.no_vig_table_for(match_id)
+
+
+@app.get("/api/betika-edge/cross-flags")
+def betika_cross_flags(match_id: str = Query(min_length=1, max_length=120),
+                       threshold: float = Query(0.03, ge=0.0, le=1.0)):
+    return {"threshold": threshold, "flags": betika_edge.cross_flags(match_id, threshold=threshold)}
+
+
+@app.get("/api/betika-edge/h2h")
+def betika_h2h(home: str = Query(min_length=1, max_length=80),
+               away: str = Query(min_length=1, max_length=80)):
+    return betika_edge.h2h(home.strip(), away.strip())
+
+
+@app.get("/api/betika-edge/predict")
+def betika_predict(home: str = Query(min_length=1, max_length=80),
+                   away: str = Query(min_length=1, max_length=80)):
+    return betika_edge.predict(home.strip(), away.strip())
+
+
+@app.get("/api/betika-edge/value-bets")
+def betika_value_bets(match_id: str = Query(min_length=1, max_length=120),
+                      min_edge: float | None = Query(None, ge=0.0, le=1.0),
+                      kelly: float | None = Query(None, ge=0.0, le=1.0)):
+    return {"bets": betika_edge.value_bets_for(match_id, min_edge=min_edge, kelly=kelly)}
+
+
+@app.get("/api/betika-edge/two-market")
+def betika_two_market(match_id: str = Query(min_length=1, max_length=120)):
+    return betika_edge.two_market_view(match_id)
+
+
+@app.get("/api/betika-edge/ledger")
+def betika_ledger():
+    return {"rows": betika_edge.ledger_rows(), "summary": betika_edge.ledger_summary()}
+
+
+@app.post("/api/betika-edge/place")
+def betika_place(payload: dict):
+    match_id = str(payload.get("match_id") or "").strip()
+    stake = payload.get("stake")
+    if stake is not None:
+        try:
+            stake = float(stake)
+        except (TypeError, ValueError):
+            stake = None
+    return betika_edge.place_bet(match_id, stake=stake)
+
+
+@app.post("/api/betika-edge/settle")
+def betika_settle():
+    return betika_edge.settle_pending()
+
+
+@app.get("/api/betika-edge/settings")
+def betika_settings_get():
+    return betika_edge.settings_get()
+
+
+@app.post("/api/betika-edge/settings")
+def betika_settings_set(payload: dict):
+    return betika_edge.settings_set({str(k): str(v) for k, v in payload.items()})
+
+
+@app.post("/api/betika-edge/seed-h2h")
+def betika_seed(payload: dict):
+    home = str(payload.get("home") or "").strip()
+    away = str(payload.get("away") or "").strip()
+    n = _betika_int(payload.get("n"), default=5, ge=1, le=20)
+    return betika_edge.seed_demo_h2h(home, away, n=n)
 
 
 app.mount("/", StaticFiles(directory=web, html=True), name="web")
