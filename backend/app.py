@@ -780,8 +780,19 @@ def betika_place(payload: dict):
 
 
 @app.post("/api/betika-edge/settle")
-def betika_settle():
-    return betika_edge.settle_pending()
+def betika_settle(payload: dict | None = None):
+    """Settle paper bets.
+
+    With no body: settle every bet whose match has a final score in the live archive.
+    With body ``{"bet_id": N, "away_goals": int}``: settle one bet by simulated result.
+    """
+    if not payload or "bet_id" not in payload:
+        return betika_edge.settle_pending()
+    bid = int(payload.get("bet_id"))
+    away_goals = int(payload.get("away_goals", 0))
+    from .betika_edge import ledger as _ledger
+    _ledger.settle_bet(bid, away_goals)
+    return {"settled": 1, "bet_id": bid, "away_goals": away_goals}
 
 
 @app.get("/api/betika-edge/settings")
